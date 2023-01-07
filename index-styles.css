@@ -1,0 +1,27 @@
+			* 							{ border-collapse: collapse; }
+			.menunav					{ font-size: 2em; color: #e9bde9; text-shadow: rgba(255,255,255,.1) -1px -1px 1px,rgba(0,0,0,.5) 3px 3px 3px; }
+			.imgcenter					{ display: block; position: center; border: 6px solid #32284D; margin-left:auto; margin-right:auto; margin-top: 3em; }
+			.imgcenter2					{ display: block; position: center; border: 6px solid #32284D; margin-left:auto; margin-right:auto; margin-top: 1.5em; }
+			.indexp						{ color: silver; font-size: 3em; text-align: center; text-shadow: rgba(255,255,255,.1) -1px -1px 1px,rgba(0,0,0,.5) 1px 1px 1px; }
+			.div1		  			    { margin: auto; width: 500px; height: 175px; text-align: center;}
+			.div2		  			    { margin: auto; text-align: center; height: 700px;}
+			.table1						{ border:8px solid #32284D; margin-left:auto; margin-right:auto; margin-top: 2em;  padding: 0em; font-weight: bold; 
+										  text-align: center; font: 18px Fantasy, Luminari; box-shadow: 0px -1px 105px -28px rgba(10,14,77,0.72);
+										  -webkit-box-shadow: 0px -1px 105px -28px rgba(10,14,77,0.72); }
+			img							{ display: block;} /* default display is inline, inline img tags add gaps between borders and imgs, display:block removes them  */
+			body 		   			    { margin: 0 auto; background-color: #746796; } 
+			header, footer 			    { background-color: #304286; padding: 0.5em; text-align: center; font-weight: bold; }
+			main div h1					{ color: #e9bde9; font-size: 40px;}
+			main div li					{ list-style-type: none; color: #e9bde9; font-size: 30px; }
+			main figure p  				{ color: #e9bde9; font-size: 2em; text-align: center; margin-top: 0.2em; text-shadow: rgba(255,255,255,.1) -1px -1px 1px,rgba(0,0,0,.5) 3px 1px 1px; }
+			nav			   		  	    { background-color: #4E61A4; height: 2.2em; text-align: center; }
+			nav ul 						{ list-style-type: none; padding: 0; margin: 0em; display: inline-block; }
+			nav ul li 					{ float: left; position: relative; }
+			nav ul li a 				{ display: block; height: 0.5em; width: 10em; border: 1px solid #000000; background-color: #966796; padding:
+										  0.8em; color: black; text-decoration: none; font-weight: bold; }
+			nav ul li a:hover     		{ background-color: #A577A5; color: #e9bde9 ; }
+			nav ul li ul            	{ display: none; position: absolute; }
+			nav ul li:hover ul   		{ display: block; }
+			nav ul li:hover ul a 		{ display: block; width: 10em; color: black; text-align: center; background-color: #A577A5; } 
+			nav ul li:hover ul a:hover  { background-color: #e785e7; color: #e9bde9; } 
+			nav ul li ul li a:hover     { background-color: silver; }
